@@ -8,7 +8,7 @@ Created on Sat May 30 02:50:17 2020
 alpha = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0"]
 
 
-f = open("usernames.csv", "a")
+f = open("usernames.csv", "elw")
 
 for char1 in alpha:
     for char2 in alpha:
@@ -26,7 +26,8 @@ alpha = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r"
 
 print(alpha[:36])
 
-f = open("usernames3.csv", "a")
+f = open("usernames3.csv", "elw
+")
 
 for char1 in alpha[:36]:
     for char2 in alpha[:36]:
